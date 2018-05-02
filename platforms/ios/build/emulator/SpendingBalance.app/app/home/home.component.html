@@ -1,0 +1,29 @@
+<GridLayout rows="1,40,40,40,65,80" columns="*,95,*" verticalAlignment="top">
+    <ActionBar class="action-bar-color" row="0">
+        <ActionItem>
+            <Label text="&#xf201;" width="20%" class="fa text-left icon-color" fontSize="28"></Label>
+        </ActionItem>
+        <ActionItem>
+            <Label text="2018,April" width="60%" fontSize="22" color="black" class="font-weight-bold text-center"></Label>
+        </ActionItem>
+        <ActionItem>
+            <Label text="&#xf013;" class="fa text-center icon-color" width="20%" fontSize="28"></Label>
+        </ActionItem>
+    </ActionBar>
+    <Label row="1" col="0" text="Budget" color="gray" fontSize="24" class="m-l-30"></Label>
+    <Label row="1" col="2" text="3999.00" fontSize="28" class="spending-text-color font-weight-bold text-right m-r-10"></Label>
+    <Label row="2" col="0" text="Spent" color="gray" fontSize="24" class="m-l-30 "></Label>
+    <Label row="2" col="2" text="417.99" color="red" fontSize="28" class="font-weight-bold text-right m-r-10"></Label>
+    <Label row="3" col="0" text="Left" color="gray" fontSize="24" class="m-l-30"></Label>
+    <Label row="3" col="2" text="3581.01" fontSize="28" class="font-weight-bold text-right m-r-10"></Label>
+    <button row="4" text="+" class="btn main-button" colSpan="3" width="100%"></button>
+
+    <ListView rowHeight="100" id="listview" row="5" widht="100%">
+        <ListView.itemTemplate>
+            <GridLayout rows="*" backgroundColor="yellow">
+                <Label text="sometext" horizontalAlignment="center" verticalAlignment="center" row="0" backgroundColor="blue" />
+            </GridLayout>
+        </ListView.itemTemplate>
+    </ListView>
+
+</GridLayout>

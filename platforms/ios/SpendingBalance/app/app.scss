@@ -1,0 +1,32 @@
+@import "nativescript-theme-core/css/core.light.css";
+@import './scss/index';
+
+.fa{
+    font-family: 'FontAwesome';
+}
+
+.mdi {
+    font-family: "Material Icons", "MaterialIcons-Regular";
+  }
+
+.main-color {
+    background-color: $primary-color;
+}
+.icon-color{
+    color:$icon-color;
+}
+
+.main-icon-color{
+    color:$primary-color;
+}
+.action-bar-color{
+    color:$action-bar-color;
+}
+.spending-text-color{
+    color:$spending-balance-color;
+}
+.main-button{
+    background-color: $primary-color;
+    font-size: 40;
+    color:white;
+}

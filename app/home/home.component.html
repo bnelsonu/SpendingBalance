@@ -1,0 +1,68 @@
+<GridLayout rows="1,45,45,10,30,65,*" columns="*,95,*" verticalAlignment="top">
+    <ActionBar class="action-bar-color" row="0">
+        <ActionItem>
+            <Label text="&#xf201;" width="20%" class="fa text-left icon-color" fontSize="28"></Label>
+        </ActionItem>
+        <ActionItem>
+            <Label text="2018,April" width="60%" fontSize="22" color="black" class="font-weight-bold text-center"></Label>
+        </ActionItem>
+        <ActionItem>
+            <Label text="&#xf013;" class="fa text-center icon-color" width="20%" fontSize="28"></Label>
+        </ActionItem>
+    </ActionBar>
+    <Label row="1" col="0" text="Budget" color="gray" fontSize="24" class="m-l-30"></Label>
+    <Label row="1" col="2" text="3999.00" fontSize="28" class="spending-text-color font-weight-bold text-right m-r-10"></Label>
+    <Label row="2" col="0" text="Spent" color="gray" fontSize="24" class="m-l-30 "></Label>
+    <Label row="2" col="2" text="417.99" color="red" fontSize="28" class="font-weight-bold text-right m-r-10"></Label>
+    <StackLayout class="hr-light" row=3 colSpan=3></StackLayout>
+    <Label row="4" col="0" text="Left" color="gray" fontSize="24" class="m-l-30"></Label>
+    <Label row="4" col="2" text="3581.01" fontSize="28" class="font-weight-bold text-right m-r-10"></Label>
+    <button row="5" text="+" class="btn main-button" colSpan="3" width="100%"></button>
+    <ScrollView>
+        <GridLayout class="list-item" rows="40,40,40,40,40,40,40,40,40,40,40,40" columns="70,120,120,70" row=6 width="100%" colSpan=3>
+            <Label text="&#xf09d;" class="fa text-center main-icon-color" fontSize="42" row=0 col=0></Label>
+            <Label text="C.C.Payment" textAlign="left" row=0 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="99.50" textWrap="true" row=0 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="27" textWrap="true" row=0 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="FRI" textWrap="true" row=0 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=1 colSpan="4" width="100%"></StackLayout>
+
+            <Label text="&#xf1ad;" class="fa text-center main-icon-color" fontSize="42" row=2 col=0></Label>
+            <Label text="Fixed" textAlign="left" row=2 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="58.99" textWrap="true" row=2 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="25" textWrap="true" row=2 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="WED" textWrap="true" row=2 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=3 colSpan="4" width="100%"></StackLayout>
+
+
+            <Label [text]="'mdi-attach-money' | fonticon" class="mdi text-center main-icon-color" fontSize="42" row=4 col=0></Label>
+            <Label text="Loans" textAlign="left" row=4 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="90.00" textWrap="true" row=4 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="18" textWrap="true" row=4 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="WED" textWrap="true" row=4 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=5 colSpan="4" width="100%"></StackLayout>
+
+
+            <Label [text]="'mdi-local-gas-station' | fonticon" class="mdi text-center main-icon-color" fontSize="42" row=6 col=0></Label>
+            <Label text="Gas" textAlign="left" row=6 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="169.50" textWrap="true" row=6 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="5" textWrap="true" row=6 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="THU" textWrap="true" row=6 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=7 colSpan="4" width="100%"></StackLayout>
+
+            <Label [text]="'mdi-local-movies' | fonticon" class="mdi text-center main-icon-color" fontSize="42" row=8 col=0></Label>
+            <Label text="Entretainment" textAlign="left" row=8 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="169.50" textWrap="true" row=8 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="2" textWrap="true" row=8 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="THU" textWrap="true" row=8 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=9 colSpan="4" width="100%"></StackLayout>
+
+            <Label [text]="'mdi-restaurant' | fonticon" class="mdi text-center main-icon-color" fontSize="42" row=10 col=0></Label>
+            <Label text="Food" textAlign="left" row=10 textWrap="true" col=1 verticalAlignment="top"></Label>
+            <Label text="169.50" textWrap="true" row=10 col=1 rowSpan="2" class="font-weight-bold"></Label>
+            <Label text="1" textWrap="true" row=10 col=3 class="font-weight-bold main-icon-color text-center m-r-20" verticalAlignment="top"></Label>
+            <Label text="MON" textWrap="true" row=10 col=3 class="text-center m-r-20" color="gray" rowSpan="2"></Label>
+            <StackLayout class="hr-light m-10" row=11 colSpan="4" width="100%"></StackLayout>
+        </GridLayout>
+    </ScrollView>
+</GridLayout>
