@@ -1,6 +1,6 @@
 rootProject.name = "SpendingBalance"
-include ':app' //,  ':runtime', ":runtime-binding-generator"
-
+include ':app', ':asbg' //,  ':runtime', ":runtime-binding-generator"
+project(':asbg').projectDir = new File('build-tools/android-static-binding-generator')
 //project(':runtime').projectDir = new File('path/to/runtime')
 //project(':runtime-binding-generator').projectDir = new File('path/to/runtime-binding-generator')
 

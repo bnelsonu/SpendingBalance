@@ -16,12 +16,12 @@
     "fetchSpec": "~5.2.0"
   },
   "_requiredBy": [
-    "/nativescript-template-ng-tutorial"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-5.2.0.tgz",
   "_shasum": "448d561f0663e7c5064b355c94d83a9146041f31",
   "_spec": "nativescript-angular@~5.2.0",
-  "_where": "/Users/briannelson/Documents/spendingBalance/SpendingBalance/node_modules/nativescript-template-ng-tutorial",
+  "_where": "/Users/bnelson/Documents/spending balance/SpendingBalance",
   "author": {
     "name": "NativeScript Team"
   },

@@ -16,13 +16,13 @@
     "fetchSpec": "~0.1.8"
   },
   "_requiredBy": [
-    "/nativescript-angular",
-    "/nativescript-template-ng-tutorial"
+    "/",
+    "/nativescript-angular"
   ],
   "_resolved": "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.12.tgz",
   "_shasum": "311bf0c6b63cd782f228a81abe146a2bfa9c56f2",
   "_spec": "reflect-metadata@~0.1.8",
-  "_where": "/Users/briannelson/Documents/spendingBalance/SpendingBalance/node_modules/nativescript-template-ng-tutorial",
+  "_where": "/Users/bnelson/Documents/spending balance/SpendingBalance",
   "author": {
     "name": "Ron Buckton",
     "email": "ron.buckton@microsoft.com",

@@ -21,15 +21,11 @@ public final class LogcatLogger implements Logger {
     }
 
     public final void write(String msg) {
-        if (this.enabled) {
-            Log.d(DEFAULT_LOG_TAG, msg);
-        }
+        Log.d(DEFAULT_LOG_TAG, msg);
     }
 
     public final void write(String tag, String msg) {
-        if (this.enabled) {
-            Log.d(tag, msg);
-        }
+        Log.d(tag, msg);
     }
 
     private void initLogging(Context context) {

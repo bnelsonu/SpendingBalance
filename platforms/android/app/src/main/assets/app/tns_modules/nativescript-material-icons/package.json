@@ -1,28 +1,27 @@
 {
-  "_from": "nativescript-material-icons",
+  "_from": "nativescript-material-icons@^1.0.3",
   "_id": "nativescript-material-icons@1.0.3",
   "_inBundle": false,
   "_integrity": "sha1-d/qP23jsCR3EpqeFTnaF6iiVAIw=",
   "_location": "/nativescript-material-icons",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "nativescript-material-icons",
+    "raw": "nativescript-material-icons@^1.0.3",
     "name": "nativescript-material-icons",
     "escapedName": "nativescript-material-icons",
-    "rawSpec": "",
+    "rawSpec": "^1.0.3",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.3"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-material-icons/-/nativescript-material-icons-1.0.3.tgz",
   "_shasum": "77fa8fdb78ec091dc4a6a7854e7685ea2895008c",
-  "_spec": "nativescript-material-icons",
-  "_where": "/Users/briannelson/Documents/spendingBalance/SpendingBalance",
+  "_spec": "nativescript-material-icons@^1.0.3",
+  "_where": "/Users/bnelson/Documents/spending balance/SpendingBalance",
   "author": {
     "name": "Shripal Soni"
   },

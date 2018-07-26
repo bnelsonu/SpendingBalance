@@ -16,12 +16,12 @@
     "fetchSpec": "~3.4.0"
   },
   "_requiredBy": [
-    "/nativescript-template-ng-tutorial"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-3.4.1.tgz",
   "_shasum": "be6882cd04127296e8803eeb10eb7ebfd9afe717",
   "_spec": "tns-core-modules@~3.4.0",
-  "_where": "/Users/briannelson/Documents/spendingBalance/SpendingBalance/node_modules/nativescript-template-ng-tutorial",
+  "_where": "/Users/bnelson/Documents/spending balance/SpendingBalance",
   "bundleDependencies": false,
   "dependencies": {
     "tns-core-modules-widgets": "3.4.0"
